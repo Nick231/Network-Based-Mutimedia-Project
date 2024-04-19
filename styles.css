@@ -1,0 +1,78 @@
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body, html{
+    height: 100%;
+}
+body{
+    background-color: #343434;
+}
+
+.hero-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+    height: 20%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    
+    position: relative;
+    padding: 0;
+    top: 30%;
+    color: rgb(92, 185, 222);  
+    font-size: xx-large;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;  
+    background-color: #000000;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    font-size: 40px;
+    padding-left: 25%;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    
+}
+  
+nav li a:hover {
+    color: rgb(92, 185, 222);  
+}
+
+.article{
+    position: relative;
+    padding: 1%;
+    background-color: lightgray;
+    height: 30%;
+    
+}
+.article a{
+    text-decoration: none;
+    color: #000000;
+}
+.article img{
+    
+    border-radius: 6px;
+    padding: 2px;
+    height: 100%;
+    float: left;
+}
+
