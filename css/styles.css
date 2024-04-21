@@ -76,3 +76,54 @@ nav li a:hover {
     float: left;
 }
 
+.full-article nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;  
+    background-color: #000000;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+}
+
+.full-article nav li {
+    float: left;
+    font-size: 40px;
+    padding-left: 0;
+  }
+  
+  .full-article nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    
+}
+  
+.full-article nav li a:hover {
+    color: rgb(92, 185, 222);  
+}
+    
+@media screen and (max-width: 768px), print{
+    
+    /* Table viewport: show tablet-desktop class, hide mobile class */
+
+    .article{
+        height: 20%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .article{
+        height: 15%;       
+    }
+
+
+
+    .article p {
+        display: none;
+    }
+}
