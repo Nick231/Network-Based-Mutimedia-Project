@@ -84,12 +84,14 @@ nav li a:hover {
     width: 100%;
     position:relative;
     overflow: hidden;
+    float:left;
 }
 
 .full-article nav li {
     float: left;
     font-size: 40px;
     padding-left: 0;
+  
   }
   
   .full-article nav li a {
@@ -104,7 +106,25 @@ nav li a:hover {
 .full-article nav li a:hover {
     color: rgb(92, 185, 222);  
 }
-    
+.article-container{
+    position: relative;
+    padding: 1%;
+    background-color: lightgray;
+    height: 50%;
+}
+
+.article-container img{
+    border-radius: 6px;
+    padding: 2px;
+    max-height: 75%;
+    max-width: 40%;
+    float: left;
+}
+
+
+
+
+
 @media screen and (max-width: 768px), print{
     
     /* Table viewport: show tablet-desktop class, hide mobile class */
@@ -132,7 +152,7 @@ nav li a:hover {
     padding: 0;
     border: 0;
 }
-.intNews, .intNews html {
+.intNews body, .intNews html {
     height: 100%;
 }
 .intNews {
@@ -142,21 +162,20 @@ nav li a:hover {
 }
 
 .intNews .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
-    height: 40vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+    height: 20%;
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
 .intNews .hero-text {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    color: rgb(92, 185, 222);
-    font-size: 3rem;
+
+    position: relative;
+    padding: 0;
+    top: 30%;
+    color: rgb(92, 185, 222);  
+    font-size: xx-large;
     text-align: center;
 }
 
@@ -168,10 +187,12 @@ nav li a:hover {
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .intNews nav li {
     font-size: 1.5rem;
+    padding: 0;
 }
 
 .intNews nav a {
