@@ -123,10 +123,6 @@ nav li a:hover {
     float: left;
 }
 
-
-
-
-
 @media screen and (max-width: 768px), print{
     
     /* Table viewport: show tablet-desktop class, hide mobile class */
@@ -134,7 +130,7 @@ nav li a:hover {
     .article{
         height: 20%;
     }
-
+  
 }
 
 @media screen and (max-width: 600px){
@@ -148,6 +144,7 @@ nav li a:hover {
     .article p {
         display: none;
     }
+
 }
 .intNews, .intNews header, .intNews nav, .intNews main, .intNews footer, .intNews img, .intNews h1 {
     margin: 0;
@@ -217,6 +214,11 @@ nav li a:hover {
     max-width: 800px;
 }
 
+iframe{
+    position: relative;
+    width: 560px;
+    height: 315px;
+}
 @media (max-width: 767px) {
     .intNews .hero-image {
         height: 30vh;
@@ -234,6 +236,7 @@ nav li a:hover {
     .intNews .article-container {
         padding: 10px;
     }
+    
 }
 
 @media (min-width: 1025px) {
